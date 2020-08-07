@@ -9,6 +9,8 @@ end
 def input_to_index(num)
 
   num = gets.to_i
+
+end  
 #   describe '#input_to_index' do
 #
 #     it 'converts a user_input to an integer' do
