@@ -6,7 +6,9 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-# def input_to_index()
+def input_to_index(num)
+
+  num = gets.strip
 #   describe '#input_to_index' do
 #
 #     it 'converts a user_input to an integer' do
