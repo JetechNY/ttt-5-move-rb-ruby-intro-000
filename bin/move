@@ -76,5 +76,5 @@ describe './bin/move executing a CLI Application' do
     output = capture_puts{ run_file("./bin/move") }
 
     expect(output).to include(" X |   |   ")
-  end
+#  end
 # Code your CLI Here
